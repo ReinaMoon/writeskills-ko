@@ -1,0 +1,14 @@
+# Agent / workspace private (do not publish)
+preferences.md
+internal/
+artifacts/
+.cursor/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local packaging output (regenerate with scripts/package-*.ps1 or .sh)
+dist/
+*.skill
+*.zip
+packaged-skills/
