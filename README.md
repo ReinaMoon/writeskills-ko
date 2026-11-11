@@ -113,10 +113,17 @@ Project 방식, Claude Code 방식: [설치 가이드](./docs/install-guide.md)
 
 ---
 
+
 ## ChatGPT 플러그인
 
 Claude용 zip과 형식이 다릅니다. ChatGPT에 올리는 파일은 `plugin.json`이 들어 있는 zip입니다.  
-받는 곳: [v0.1.0 릴리스](https://github.com/ReinaMoon/writeskills-ko/releases/tag/v0.1.0)
+저장소 루트에서 만듭니다.
+
+```bash
+python3 scripts/package-chatgpt-plugin.py
+```
+
+결과: `dist/chatgpt/`
 
 | 파일 | 쓸 때 |
 |------|--------|
