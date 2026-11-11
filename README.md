@@ -92,7 +92,7 @@ macOS / Linux:
 
 ```bash
 git clone https://github.com/ReinaMoon/writeskills-ko.git
-cd WriteSkills
+cd writeskills-ko
 bash scripts/package-skill.sh skills/10-edit/edit-de-ai
 # → dist/edit-de-ai.zip
 ```
