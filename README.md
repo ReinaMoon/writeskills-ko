@@ -10,7 +10,8 @@
 ![Deps](https://img.shields.io/badge/dependencies-none-brightgreen)
 
 > 설치 3분, 의존성 0. Markdown 폴더를 Claude에 올리면 끝입니다.  
-> [설치 가이드](./docs/install-guide.md) | [ChatGPT](./docs/install-guide-chatgpt.md) | [Before/After 보기](./docs/showcase.md) | [전체 스킬](./skills/README.md)  
+> [설치 가이드](./docs/install-guide.md) | [ChatGPT](./docs/install-guide-chatgpt.md) | [Before/After 보기](./docs/showcase.md) | [전체 스킬](./skills/README.md)
+> ChatGPT는 [플러그인 zip](./docs/install-guide-chatgpt.md)을 씁니다. Claude용 zip과 다릅니다.  
 > [영어로 쓸 때](./docs/writing-in-english.md) | [영어 소설 연속성](./docs/novel-continuity-english-manuscript.md)
 
 ---
@@ -111,6 +112,27 @@ bash scripts/package-skill.sh skills/10-edit/edit-de-ai
 Project 방식, Claude Code 방식: [설치 가이드](./docs/install-guide.md)
 
 ---
+
+## ChatGPT 플러그인
+
+Claude용 zip과 형식이 다릅니다. ChatGPT에 올리는 파일은 `plugin.json`이 들어 있는 zip입니다.  
+받는 곳: [v0.1.0 릴리스](https://github.com/ReinaMoon/writeskills-ko/releases/tag/v0.1.0)
+
+| 파일 | 쓸 때 |
+|------|--------|
+| `writeskills-ko-edit.zip` | AI 말투, 맞춤법 |
+| `writeskills-ko-novel.zip` | 소설 |
+| `writeskills-ko-blog.zip` | 기술 블로그 |
+| `writeskills-ko-career.zip` | 이력서, 자소서, 면접 |
+| `writeskills-ko-it.zip` | 회의, 런북, ADR, 장애 회고, PR |
+| `writeskills-ko.zip` | 47개 전부 |
+
+1. ChatGPT 웹에서 **Admin console → Plugins → Add → Upload plugin**
+2. zip은 하나만 올립니다. 처음에는 `writeskills-ko-edit.zip` 또는 `writeskills-ko-novel.zip`
+3. 대화에서 스킬 이름을 말합니다. 예: `novel-planning 규칙으로 연재형 회차표를 만들어 줘.`
+
+플러그인 메뉴가 없으면 그 계정에서는 zip 업로드가 아직 열리지 않았습니다.  
+다시 만드는 명령과 대체 방법은 [ChatGPT 가이드](./docs/install-guide-chatgpt.md)에 있습니다.
 
 ## 카테고리
 
