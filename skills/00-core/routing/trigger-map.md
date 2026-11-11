@@ -55,7 +55,7 @@ description의 `트리거:` 키워드와 맞춥니다.
 | novel-planning | 소설 기획, 플롯, 인물 설계 |
 | novel-voice | 문체 규약, 파일럿, 보이스 |
 | novel-writing | 소설 집필, 씬 쓰기 |
-| novel-continuity | 연속성, 모순, story bible, 타임라인 |
+| novel-continuity | 연속성, 모순, story bible, 타임라인, 복선, 떡밥 회수 |
 
 소설 퇴고는 `book-editing` (소설 모드). 집필 후 모순 점검은 `novel-continuity`.
 
@@ -147,7 +147,7 @@ description의 `트리거:` 키워드와 맞춥니다.
 | “표지 vs 썸네일” | 책 → image-book, 블로그/강의/OG → image-content |
 | “위키에 쌓인 걸로 블로그” | wiki-activate → write-blog |
 | “리뷰만 / 고치지 마” | critique-only (`critique` 모드) |
-| “소설 설정 모순” | novel-continuity |
+| “소설 설정 모순 / 복선 회수” | novel-continuity |
 | “ADR / 설계 결정” | doc-adr (긴 제안은 doc-rfc) |
 | “글 다듬어 줘” | 말투면 edit-de-ai, 표기면 edit-proofread, 구성이면 book-editing |
 | “장애 정리” | 복구 후 회고면 doc-postmortem, 절차면 doc-runbook |
