@@ -15,6 +15,10 @@
 
 ## 이런 걸 합니다
 
+![맞춤법과 번역투 교정 전후 예시](./docs/images/1-before-after-proofread.png)
+
+*edit-proofread 스킬의 문서화된 예시를 정리한 이미지입니다. 실제 Claude 화면 캡처가 아닙니다.*
+
 **AI 초안을 사람 글로** (`edit-de-ai`)
 
 ```diff
