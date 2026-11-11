@@ -116,7 +116,7 @@ Project 방식, Claude Code 방식: [설치 가이드](./docs/install-guide.md)
 | [00-core](./skills/00-core/README.md) | 문체, 원칙, AI 말투 패턴, 인계, 라우팅 | 모듈 |
 | [01-writing](./skills/01-writing/README.md) | 단편, 블로그, 에세이, 피드 | 4 |
 | [02-book](./skills/02-book/README.md) | 실용서/기술서 | 6 |
-| [03-novel](./skills/03-novel/README.md) | 소설, 연재형, 연속성 | 4 |
+| [03-novel](./skills/03-novel/README.md) | 소설, 연재형, 연속성·복선 추적 | 4 |
 | [04-lecture](./skills/04-lecture/README.md) | 강의/워크숍 | 5 |
 | [05-research](./skills/05-research/README.md) | 조사 | 2 |
 | [06-wiki](./skills/06-wiki/README.md) | 지식 위키 | 4 |
