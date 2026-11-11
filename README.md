@@ -1,7 +1,8 @@
 # WriteSkills
 
 **한국어로 일하고 쓰는 사람을 위한 Claude Agent Skills 47개.**  
-회의록부터 장애 회고, 기술 블로그, 이력서, 소설 연재까지. AI 티 안 나는 한국어로.
+회의록부터 장애 회고, 기술 블로그, 이력서, 소설 연재까지. 지시는 한국어, 산출은 AI 티 안 나는 한국어가 기본입니다.  
+영어 **소설 원고**의 연속성 점검(`novel-continuity`) 안내는 [여기](./docs/writing-in-english.md)입니다. 영어 문법 교정기는 아닙니다.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](./LICENSE)
 ![Skills](https://img.shields.io/badge/skills-47-blue)
@@ -9,7 +10,8 @@
 ![Deps](https://img.shields.io/badge/dependencies-none-brightgreen)
 
 > 설치 3분, 의존성 0. Markdown 폴더를 Claude에 올리면 끝입니다.  
-> [설치 가이드](./docs/install-guide.md) | [ChatGPT](./docs/install-guide-chatgpt.md) | [Before/After 보기](./docs/showcase.md) | [전체 스킬](./skills/README.md)
+> [설치 가이드](./docs/install-guide.md) | [ChatGPT](./docs/install-guide-chatgpt.md) | [Before/After 보기](./docs/showcase.md) | [전체 스킬](./skills/README.md)  
+> [영어로 쓸 때](./docs/writing-in-english.md) | [영어 소설 연속성](./docs/novel-continuity-english-manuscript.md)
 
 ---
 
@@ -50,7 +52,7 @@
 
 | | WriteSkills | 흔한 프롬프트 모음 |
 |--|-------------|--------------------|
-| 언어 | 한국어 어법, 번역투, AI 말투 패턴 내장 | 영문 프롬프트 번역 |
+| 언어 | 한국어 어법, 번역투, AI 말투 패턴 내장. 영어 원고는 소설 연속성 안내 | 영문 프롬프트 번역 |
 | 범위 | 업무 문서 + 블로그 + 커리어 + 책 + 소설이 한 체인 | 장르별 단발 |
 | 지어내기 | 없는 수치는 `[수치?]`, `[TODO-FACT]`로 묻는다 | 그럴듯하게 채움 |
 | 비평 | "고치지 말고 문제만" 모드 (critique-only) | 항상 다시 써 줌 |
@@ -67,6 +69,7 @@
 | 기술 블로그를 쓰는 사람 | `write-blog` + `edit-de-ai` | C |
 | 이직, 취업 준비 | `career-resume`, `career-cover-letter`, `career-interview` | L |
 | 소설, 연재를 쓰는 사람 | `novel-planning` → `novel-voice` → `novel-writing` → `novel-continuity` | F |
+| 영어 소설 원고의 연속성만 보고 싶은 사람 | `novel-continuity` ([안내](./docs/novel-continuity-english-manuscript.md)) | F |
 | AI 초안을 다듬고 싶은 누구나 | `edit-de-ai`, `edit-proofread` | M |
 | 강의, 책, 사업계획 | `lecture-*`, `book-*`, `bizplan-*` | G, E, J |
 
@@ -116,7 +119,7 @@ Project 방식, Claude Code 방식: [설치 가이드](./docs/install-guide.md)
 | [00-core](./skills/00-core/README.md) | 문체, 원칙, AI 말투 패턴, 인계, 라우팅 | 모듈 |
 | [01-writing](./skills/01-writing/README.md) | 단편, 블로그, 에세이, 피드 | 4 |
 | [02-book](./skills/02-book/README.md) | 실용서/기술서 | 6 |
-| [03-novel](./skills/03-novel/README.md) | 소설, 연재형, 연속성·복선 추적 | 4 |
+| [03-novel](./skills/03-novel/README.md) | 소설, 연재형, 연속성/복선 추적 | 4 |
 | [04-lecture](./skills/04-lecture/README.md) | 강의/워크숍 | 5 |
 | [05-research](./skills/05-research/README.md) | 조사 | 2 |
 | [06-wiki](./skills/06-wiki/README.md) | 지식 위키 | 4 |
@@ -147,6 +150,7 @@ Project 방식, Claude Code 방식: [설치 가이드](./docs/install-guide.md)
 1. **지어내지 않는다.** 없는 경험, 수치, 출처는 빈칸으로 남기고 묻는다.
 2. **플랫폼 중립.** 특정 포털 SEO, 공모 양식, 채용 사이트에 묶이지 않는다.
 3. **한 번에 다 켜지 않는다.** 비슷한 스킬은 토글로 1~2개만. → [trigger-map](./skills/00-core/routing/trigger-map.md)
+4. **영어 원고 ≠ 영어 교정.** 소설 연속성만 안내. 맞춤법/관사 교정과 기술 문서 품질은 범위 밖. → [영어로 쓸 때](./docs/writing-in-english.md)
 
 ## 기여
 

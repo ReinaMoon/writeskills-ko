@@ -34,6 +34,30 @@ Claude 설치가 기본이다. 이 문서는 Custom GPT / ChatGPT Project용 요
 특정 포털 SEO, 특정 정부 공모 양식은 일반 구조로만 안내합니다.
 ```
 
+영어 소설 원고를 넣을 때 Instructions에 아래를 추가합니다.
+
+```
+원고 언어가 영어여도 점검 규칙은 동일하다.
+영어 맞춤법, 관사, 톤은 교정하지 않는다.
+미회수 복선은 모순이 아니라 추적 상태다.
+새 설정이나 사건을 지어내지 않는다.
+모순 등급(High/Mid/Low)은 명확한 모순인지와 스토리 영향도로 나눈다.
+판단은 사용자가 준 원고 범위 안에서만 한다.
+```
+
+### 영어 소설 continuity Knowledge 목록
+
+- `skills/00-core/output/critique-only.md`
+- `skills/00-core/handoff/chain-status.md`
+- `skills/03-novel/novel-continuity/SKILL.md`
+- `skills/03-novel/novel-continuity/references/story-bible.md`
+- `skills/03-novel/novel-continuity/references/foreshadowing-status-aliases.md`
+- (선택) `skills/03-novel/novel-continuity/examples/en-manuscript-continuity.md`
+- 사용자 story-bible + 영어 원고 (제공 범위 명시)
+
+절차 상세: [`novel-continuity-english-manuscript.md`](./novel-continuity-english-manuscript.md).  
+영어로 쓸 때 개요: [`writing-in-english.md`](./writing-in-english.md).
+
 ---
 
 ## 3. 권장 팩 → 올릴 스킬
@@ -57,8 +81,18 @@ Claude 설치가 기본이다. 이 문서는 Custom GPT / ChatGPT Project용 요
 
 ---
 
-## 5. 아직 없는 것
+## 5. ChatGPT Skills 메뉴가 있는 경우
+
+플랜과 워크스페이스에 따라 Skills 업로드 UI가 있을 수 있다.  
+이 저장소 가이드의 **기본 경로**는 위 Custom GPT / Project의 Instructions + Knowledge다.  
+Skills 메뉴를 쓰려면 OpenAI 쪽 현재 도움말을 따른다.
+
+- https://help.openai.com/en/articles/20001066-skills-in-chatgpt
+- https://learn.chatgpt.com/docs/build-skills
+
+## 6. 아직 없는 것
 
 - GPT 스토어 업로드 자동화
 - Actions(외부 API) 연동
-- 영문 locale 패키지
+- 영문 locale 전체 패키지
+- 영어 기술 문서 품질 검증 (이 안내 범위 밖)

@@ -5,6 +5,8 @@
 - 루트 안내: [`../README.md`](../README.md)
 - 설치 (Claude): [`../docs/install-guide.md`](../docs/install-guide.md)
 - ChatGPT: [`../docs/install-guide-chatgpt.md`](../docs/install-guide-chatgpt.md)
+- 영어로 쓸 때 (한국어 안내): [`../docs/writing-in-english.md`](../docs/writing-in-english.md)
+- 영어 소설 연속성: [`../docs/novel-continuity-english-manuscript.md`](../docs/novel-continuity-english-manuscript.md)
 - 개선 과제: [`../docs/gap-and-improvement.md`](../docs/gap-and-improvement.md)
 - 스킬 선택: [`00-core/routing/trigger-map.md`](./00-core/routing/trigger-map.md)
 - 라이선스: [`../LICENSE`](../LICENSE) (CC BY-SA 4.0)
@@ -19,7 +21,7 @@
 | [00-core](./00-core/README.md) | (모듈) | 문체, 원칙, AI 말투 패턴, 인계, 비평모드, 시리즈, 체인 |
 | [01-writing](./01-writing/README.md) | 4 | 단편, 블로그, 에세이, 피드 |
 | [02-book](./02-book/README.md) | 6 | 실용서/기술서 |
-| [03-novel](./03-novel/README.md) | 4 | 소설, 연재형, 연속성 |
+| [03-novel](./03-novel/README.md) | 4 | 소설, 연재형, 연속성 (영어 원고 안내 포함) |
 | [04-lecture](./04-lecture/README.md) | 5 | 강의, 워크숍 |
 | [05-research](./05-research/README.md) | 2 | 조사 |
 | [06-wiki](./06-wiki/README.md) | 4 | 지식 위키 |

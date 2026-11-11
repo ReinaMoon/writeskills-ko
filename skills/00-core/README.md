@@ -29,7 +29,7 @@
 | `adapters/runtime-files.md` | docx/pptx/스크립트는 선택 사항 | 파일 생성이 필요할 때 |
 | `adapters/vault-obsidian.md` | 로컬 노트 폴더 옵션 | wiki, 강의, 리서치 |
 | `adapters/plain-folder.md` | 옵시디언 없는 일반 폴더 | wiki, 리서치 |
-| `adapters/chatgpt-notes.md` | ChatGPT Knowledge/Project 적재 | 패키징, 이식 |
+| `adapters/chatgpt-notes.md` | ChatGPT Knowledge/Project 적재 (영어 원고 continuity 메모 포함) | 패키징, 이식 |
 | `routing/trigger-map.md` | 스킬 선택, 충돌 방지 | 라우팅, description |
 | `routing/core-ref-diet.md` | SKILL 코어 링크 길이 제한 | 스킬 작성자 |
 

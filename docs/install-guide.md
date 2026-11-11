@@ -7,6 +7,7 @@ ChatGPT: [`install-guide-chatgpt.md`](./install-guide-chatgpt.md).
 - 스킬 목록: [`../skills/README.md`](../skills/README.md)
 - 트리거 선택표: [`../skills/00-core/routing/trigger-map.md`](../skills/00-core/routing/trigger-map.md)
 - ChatGPT: [`install-guide-chatgpt.md`](./install-guide-chatgpt.md)
+- 영어 원고를 다룰 때: [`writing-in-english.md`](./writing-in-english.md)
 
 ---
 
@@ -322,3 +323,13 @@ Claude Code는 파일시스템 기반이라 zip 업로드와 별개입니다.
 | J | “7분 Problem-First 12장 표만” | 12행 스토리보드 |
 
 입출력 샘플: 각 스킬 `examples/`. 스모크 fixture: [`../evals/`](../evals/).
+
+---
+
+## 10. 영어 원고를 다룰 때
+
+작성 언어가 영어여도 설치 단위(zip/Project)는 같습니다.  
+안내는 한국어, 원고는 영어인 경우의 절차와 한계: [`writing-in-english.md`](./writing-in-english.md).  
+소설 연속성: [`novel-continuity-english-manuscript.md`](./novel-continuity-english-manuscript.md).
+
+영어 문법 교정기가 되지 않습니다. 지금 안내는 영어 소설 `novel-continuity` 연속성뿐이며, 기술 문서/블로그 품질은 여기서 다루지 않습니다.

@@ -9,6 +9,9 @@
 | E3 | novel-voice | `novel-voice/input.md` | `novel-voice/expect-checklist.md` |
 | E4 | edit-de-ai | `de-ai/input.md` | `de-ai/expect-checklist.md` |
 | E5 | career-resume | `resume/input.md` | `resume/expect-checklist.md` |
+| E6 | novel-continuity | `novel-continuity/input.md` (+ `bible/`) | `novel-continuity/expect-checklist.md` |
 
 방법: input을 붙여 넣고, expect 체크리스트를 합격 기준으로 본다.  
-E4, E5는 "지어내지 않는다" 원칙을 확인하는 핵심 케이스입니다.
+expect는 사람이 읽는 판정표다.  
+E4, E5는 "지어내지 않는다" 원칙을 확인하는 핵심 케이스입니다.  
+E6는 영어 소설 원고 연속성(A-G). 영어 문법 교정과 기술 문서 품질은 범위 밖입니다.
