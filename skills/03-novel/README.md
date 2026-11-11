@@ -10,7 +10,7 @@
 | [novel-planning](./novel-planning/SKILL.md) | 소재, 장르, 인물, 플롯, 연재 회차표 | 본문 직행 금지, 설계 먼저 | `examples/one-page-premise.md` |
 | [novel-voice](./novel-voice/SKILL.md) | 파일럿 → 문체 규약 | 톤/화법 고정 | `examples/voice-axes-sample.md` |
 | [novel-writing](./novel-writing/SKILL.md) | 씬 집필 | 기획+보이스 이후 | `examples/scene-draft-short.md` |
-| [novel-continuity](./novel-continuity/SKILL.md) | 인물·시간선 모순 점검과 복선 추적 | 여러 챕터 이어 쓸 때 | `examples/contradiction-report.md` |
+| [novel-continuity](./novel-continuity/SKILL.md) | 인물/시간선 모순 점검과 복선 추적 | 여러 챕터 이어 쓸 때 | `examples/contradiction-report.md`, `examples/en-manuscript-continuity.md` |
 
 ## 체인
 
@@ -27,8 +27,12 @@ novel-planning → novel-voice → novel-writing
 10회마다 `novel-continuity`로 모순과 복선 회수 상태 점검을 권장합니다.
 
 story-bible 스키마: `novel-continuity/references/story-bible.md`  
+복선 상태 별칭: `novel-continuity/references/foreshadowing-status-aliases.md`  
 시리즈: `../00-core/handoff/series-schema.md`  
 비평만: `../00-core/output/critique-only.md`
+
+영어 소설 원고를 넣을 때 (한국어 안내): [`../../docs/novel-continuity-english-manuscript.md`](../../docs/novel-continuity-english-manuscript.md)  
+개요: [`../../docs/writing-in-english.md`](../../docs/writing-in-english.md)
 
 참조용으로 다른 작가 이름을 떠올려도, 그 문장을 복제하거나 가이드에 인용하지 않습니다.
 
@@ -36,3 +40,4 @@ story-bible 스키마: `novel-continuity/references/story-bible.md`
 
 - 연재 플랫폼 조회수 최적화
 - 특정 작가 문장 학습/복제 예시
+- 영어 문법 교정 / 영어 기술 문서 품질 검증 (continuity 안내 범위 밖)

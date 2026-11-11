@@ -1,6 +1,6 @@
 # ChatGPT 적재 메모
 
-Claude Skills(`.skill`)와 달리 Custom GPT / Project는 슬래시 호출, 로컬 FS 체인이 없습니다. 
+Claude Skills(`.skill`)와 달리 Custom GPT / Project는 슬래시 호출, 로컬 FS 체인이 없습니다.  
 코어와 체인 스킬을 나눌 때의 주의만 정리합니다.
 
 ---
@@ -41,5 +41,25 @@ Claude Skills(`.skill`)와 달리 Custom GPT / Project는 슬래시 호출, 로�
 
 ## 5. 코어 동기화
 
-Knowledge에 넣은 `00-core` 사본이 스토어와 어긋나지 않게, 재구성 후에는 **코어를 다시 업로드**한다. 
+Knowledge에 넣은 `00-core` 사본이 스토어와 어긋나지 않게, 재구성 후에는 **코어를 다시 업로드**한다.  
 스킬 Instructions에 코어 내용을 장문으로 복제하지 않는다.
+
+---
+
+## 6. 영어 원고 (소설 continuity)
+
+- 기본 경로: Custom GPT / Project의 **Instructions + Knowledge**.
+- 영어 원고를 올릴 때 story-bible와 **제공 원고 범위**를 같이 넣는다.
+- Instructions는 한국어로 두고, 문법 교정 금지 / 미회수 복선 ≠ 오류 / 새 설정 금지를 명시한다.
+- 절차: `docs/novel-continuity-english-manuscript.md`, `docs/install-guide-chatgpt.md`.
+
+---
+
+## 7. ChatGPT Skills 메뉴
+
+플랜/워크스페이스에 Skills 업로드가 있으면 OpenAI 도움말을 따른다.  
+이 저장소 문서는 Custom GPT / Project 수동 적재를 기본으로 적는다.
+
+- https://help.openai.com/en/articles/20001066-skills-in-chatgpt
+- https://learn.chatgpt.com/docs/build-skills
+- https://developers.openai.com/plugins/concepts/skills
